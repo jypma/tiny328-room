@@ -1,17 +1,17 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Mon 03 Nov 2014 05:13:18 PM CET
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Sun 22 Feb 2015 12:47:10 CET
 
 BeginCmp
 TimeStamp = /545650C0;
 Reference = C1;
 ValeurCmp = 1u;
-IdModule  = SM0603_Capa;
+IdModule  = SM0603_C_Hand;
 EndCmp
 
 BeginCmp
-TimeStamp = /5453E578;
-Reference = CON1;
-ValeurCmp = USB-MINI-B;
-IdModule  = USB-B-MICRO-HJBRIGHT;
+TimeStamp = /54E9C2BB;
+Reference = C2;
+ValeurCmp = 0.1u;
+IdModule  = SM0603_C_Hand;
 EndCmp
 
 BeginCmp
@@ -36,38 +36,59 @@ IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
+TimeStamp = /545D2BDC;
+Reference = K2;
+ValeurCmp = SOIL;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
 TimeStamp = /5454FE1B;
 Reference = R1;
 ValeurCmp = 4.7k;
-IdModule  = SM0603;
+IdModule  = SM0603_Hand;
 EndCmp
 
 BeginCmp
 TimeStamp = /5454FD70;
 Reference = R2;
 ValeurCmp = 4.7k;
-IdModule  = SM0603;
+IdModule  = SM0603_Hand;
 EndCmp
 
 BeginCmp
 TimeStamp = /5454FF48;
 Reference = R3;
 ValeurCmp = 100;
-IdModule  = SM0603;
+IdModule  = SM0603_Hand;
 EndCmp
 
 BeginCmp
 TimeStamp = /54565014;
 Reference = R4;
 ValeurCmp = 10k;
-IdModule  = SM0603;
+IdModule  = SM0603_Hand;
 EndCmp
 
 BeginCmp
 TimeStamp = /545650E1;
 Reference = R5;
 ValeurCmp = 510k;
-IdModule  = SM0603;
+IdModule  = SM0603_Hand;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E9BF9B;
+Reference = R6;
+ValeurCmp = 5k;
+IdModule  = SM0603_Hand;
+EndCmp
+
+BeginCmp
+TimeStamp = /545D15F2;
+Reference = RV1;
+ValeurCmp = 20k;
+IdModule  = 3305_POT;
 EndCmp
 
 BeginCmp
@@ -89,6 +110,13 @@ TimeStamp = /5454C609;
 Reference = U3;
 ValeurCmp = TINY328;
 IdModule  = TINY328_CONN;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E9BE88;
+Reference = U4;
+ValeurCmp = APDS-9006-020;
+IdModule  = APDS-9006-020;
 EndCmp
 
 EndListe
