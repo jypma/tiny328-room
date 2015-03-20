@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Sun 22 Feb 2015 12:47:10 CET
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Fri 20 Mar 2015 14:26:15 CET
 
 BeginCmp
 TimeStamp = /545650C0;
@@ -40,6 +40,13 @@ TimeStamp = /545D2BDC;
 Reference = K2;
 ValeurCmp = SOIL;
 IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /550C1E9C;
+Reference = K3;
+ValeurCmp = DIST;
+IdModule  = PIN_ARRAY_4x1;
 EndCmp
 
 BeginCmp
