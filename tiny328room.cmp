@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Fri 20 Mar 2015 14:26:15 CET
+Cmp-Mod V01 Created by PcbNew date = Sat 21 Mar 2015 14:12:33 CET
 
 BeginCmp
 TimeStamp = /545650C0;
@@ -29,6 +29,20 @@ IdModule  = DIODE_SMB;
 EndCmp
 
 BeginCmp
+TimeStamp = /550C39D8;
+Reference = JP1;
+ValeurCmp = LED_DIRECT;
+IdModule  = S_JUMPER_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /550C3E00;
+Reference = JP2;
+ValeurCmp = LED_DIRECT;
+IdModule  = S_JUMPER_2;
+EndCmp
+
+BeginCmp
 TimeStamp = /5453E551;
 Reference = K1;
 ValeurCmp = PIR;
@@ -47,6 +61,13 @@ TimeStamp = /550C1E9C;
 Reference = K3;
 ValeurCmp = DIST;
 IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /550C3B7D;
+Reference = Q1;
+ValeurCmp = IRLZ44N;
+IdModule  = TO220_MINI2;
 EndCmp
 
 BeginCmp

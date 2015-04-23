@@ -1,11 +1,6 @@
-update=Fri 31 Oct 2014 04:22:16 PM CET
+update=Fri 20 Mar 2015 16:24:53 CET
 version=1
-last_client=pcbnew
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+last_client=cvpcb
 [general]
 version=1
 [eeschema]
@@ -68,7 +63,6 @@ DrawSegmentWidth="    0.200000"
 BoardOutlineThickness="    0.100000"
 ModuleOutlineThickness="    0.150000"
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -86,3 +80,12 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=/home/jan/Documents/kicad/kicadlibrary/rfm12
+LibName18=/home/jan/Documents/kicad/kicadlibrary/shardy
+LibName19=/home/jan/Documents/kicad/kicadlibrary/numato_kicad_lib
+LibName20=/home/jan/Documents/kicad/kicadlibrary/open-project
+LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
